@@ -4,8 +4,6 @@ mod gameboard;
 
 use gameboard::*;
 
-
-
 /// Take a usize from the user in the console.
 fn input_usize(cin: &Stdin) -> usize {
     let mut input = String::new();
